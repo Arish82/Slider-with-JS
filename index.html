@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="css/coloroption.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/slider.css">
+</head> 
+<body>
+
+    <!-- Sliders -->
+    <div class="sliders">
+
+        <!-- slide-1 -->
+        <div class="slide active">
+            <!-- image for slide-1 -->
+            <div class="imgs">
+                <img src="https://images.pexels.com/photos/2787341/pexels-photo-2787341.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" srcset="">
+            </div>
+            <!-- content for slide-1 -->
+            <div class="content">
+                <h1>Slide-1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere natus tempore assumenda?</p>
+            </div>
+        </div>
+        <!-- Slide-2 -->
+        <div class="slide">
+            <div class="imgs">
+                <img src="https://images.unsplash.com/photo-1609233873389-8b9e1c20a616?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="" srcset="">
+            </div>
+            <div class="content">
+                <h1>Slide-2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere natus tempore assumenda?</p>
+            </div>
+        </div>
+        <!-- Slide-3 -->
+        <div class="slide">
+            <div class="imgs">
+                <img src="https://images.pexels.com/photos/2744193/pexels-photo-2744193.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" srcset="">
+            </div>
+            <div class="content">
+                <h1>Slide-3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere natus tempore assumenda?</p>
+            </div>
+        </div>
+        <!-- Slide-4 -->
+        <div class="slide">
+            <div class="imgs">
+                <img src="https://images.unsplash.com/photo-1611558709798-e009c8fd7706?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwbGFkeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset="">
+            </div>
+            <div class="content">
+                <h1>Slide-4</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere natus tempore assumenda?</p>
+            </div>
+        </div>
+        <!-- Slide-5 -->
+        <div class="slide">
+            <div class="imgs">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="" srcset="">
+            </div>
+            <div class="content">
+                <h1>Slide-5</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere natus tempore assumenda?</p>
+            </div>
+        </div>
+
+        <!-- Bottom Navigation button to change slide -->
+        <div class="navigation">
+            <div class="btn active"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+        </div>
+
+        <!-- Arrow button to see next or previous images -->
+        <img class="Arrow" id="right" src="https://img.icons8.com/nolan/64/expand-arrow.png"/>
+        <img class="Arrow" id="left" src="https://img.icons8.com/nolan/64/expand-arrow.png"/>
+    </div>
+
+    <!-- background-color for body -->
+    <div class="color-option">
+        <div class="O Color1 bgColor" value="#2FF3E0"></div>
+        <div class="O Color2 bgColor"></div>
+        <div class="O Color3 bgColor"></div>
+        <div class="O Color4 bgColor"></div>
+        <div class="O bgColor" style="background-color: #A16AE8;"></div>
+    </div>
+    <!-- background-color for slide -->
+    <div class="color-option slide-nav">
+        <div class="O sdColor" style="background-color: #F9D030;"></div>
+        <div class="O sdColor" style="background-color: rgb(29, 29, 29);"></div>
+        <div class="O sdColor" style="background-color: #F62AA0;"></div>
+        <div class="O sdColor" style="background-color: #2FF3E0;"></div>
+        <div class="O sdColor" style="background-color: #A16AE8;"></div>
+    </div>
+    <script src="JS/Navigation.js"></script>
+    <script src="JS/Color.js"></script>
+</body>
+</html>

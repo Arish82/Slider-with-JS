@@ -1,0 +1,72 @@
+@media (max-width: 3000px) and (min-width: 1200px){
+    .sliders{
+        height: 490px;
+        width: 770px;
+    }
+}
+@media (max-width: 600px){
+    .sliders{
+        width: 400px;
+        height: 266.67px;
+    }
+    .slide .content{
+        height: 90px;
+    }
+    .slide .content h1{
+        font-size: 25px;
+    }
+    .slide .content p{
+        font-size: 13px;
+    }
+    #right{
+        width: 30px;
+    }
+    #left{
+        width: 30px;
+    }
+    .navigation .btn{
+        width: 8px;
+        height: 8px;
+    }
+}
+@media (max-width: 400px){
+    .sliders{
+        width: 300px;
+        height: 200px;
+    }
+    .slide .content{
+        height: 90px;
+    }
+    .slide .content h1{
+        font-size: 25px;
+    }
+    .slide .content p{
+        font-size: 13px;
+    }
+    #right{
+        width: 30px;
+    }
+    #left{
+        width: 30px;
+    }
+    .slide .content{
+        height: 80px;
+    }
+    .slide .content h1{
+        font-size: 20px;
+        top: 15px;
+    }
+    .slide .content p{
+        top: 40px;
+        font-size: 10px;
+    }
+    #right{
+        width: 25px;
+    }
+    #left{
+        width: 25px;
+    }
+    .active{
+        visibility: visible;
+    }
+}
